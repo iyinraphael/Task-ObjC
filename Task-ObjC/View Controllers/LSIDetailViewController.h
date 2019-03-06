@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class LSITask;
+@class LSITaskController;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIDetailViewController : UIViewController
+
+@property (nonatomic, strong) LSITask *task;
+@property (nonatomic, strong) LSITaskController *tasksController;
 
 @end
 

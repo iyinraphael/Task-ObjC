@@ -8,21 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EBFEFBC0223036460072EDF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBBF223036460072EDF1 /* AppDelegate.m */; };
-		EBFEFBC3223036460072EDF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBC2223036460072EDF1 /* ViewController.m */; };
 		EBFEFBC6223036460072EDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFBC4223036460072EDF1 /* Main.storyboard */; };
 		EBFEFBC8223036490072EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFBC7223036490072EDF1 /* Assets.xcassets */; };
 		EBFEFBCB223036490072EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEFBC9223036490072EDF1 /* LaunchScreen.storyboard */; };
 		EBFEFBCE223036490072EDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBCD223036490072EDF1 /* main.m */; };
 		EBFEFBD62230369E0072EDF1 /* LSITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBD52230369E0072EDF1 /* LSITableViewController.m */; };
 		EBFEFBD9223038AF0072EDF1 /* LSIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBD8223038AF0072EDF1 /* LSIDetailViewController.m */; };
+		EBFEFBDE22303AD30072EDF1 /* LSITask.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBDD22303AD30072EDF1 /* LSITask.m */; };
+		EBFEFBE122303C240072EDF1 /* LSITaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFEFBE022303C240072EDF1 /* LSITaskController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBFEFBBB223036460072EDF1 /* Task-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFEFBBE223036460072EDF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBFEFBBF223036460072EDF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EBFEFBC1223036460072EDF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EBFEFBC2223036460072EDF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EBFEFBC5223036460072EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBFEFBC7223036490072EDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBFEFBCA223036490072EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +31,10 @@
 		EBFEFBD52230369E0072EDF1 /* LSITableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITableViewController.m; sourceTree = "<group>"; };
 		EBFEFBD7223038AF0072EDF1 /* LSIDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIDetailViewController.h; sourceTree = "<group>"; };
 		EBFEFBD8223038AF0072EDF1 /* LSIDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIDetailViewController.m; sourceTree = "<group>"; };
+		EBFEFBDC22303AD30072EDF1 /* LSITask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITask.h; sourceTree = "<group>"; };
+		EBFEFBDD22303AD30072EDF1 /* LSITask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITask.m; sourceTree = "<group>"; };
+		EBFEFBDF22303C240072EDF1 /* LSITaskController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITaskController.h; sourceTree = "<group>"; };
+		EBFEFBE022303C240072EDF1 /* LSITaskController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITaskController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,21 +67,39 @@
 		EBFEFBBD223036460072EDF1 /* Task-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				EBFEFBDB22303AAA0072EDF1 /* View Controllers */,
+				EBFEFBDA22303A9E0072EDF1 /* Model */,
 				EBFEFBBE223036460072EDF1 /* AppDelegate.h */,
-				EBFEFBD7223038AF0072EDF1 /* LSIDetailViewController.h */,
-				EBFEFBD8223038AF0072EDF1 /* LSIDetailViewController.m */,
 				EBFEFBBF223036460072EDF1 /* AppDelegate.m */,
-				EBFEFBC1223036460072EDF1 /* ViewController.h */,
-				EBFEFBC2223036460072EDF1 /* ViewController.m */,
 				EBFEFBC4223036460072EDF1 /* Main.storyboard */,
-				EBFEFBD42230369E0072EDF1 /* LSITableViewController.h */,
-				EBFEFBD52230369E0072EDF1 /* LSITableViewController.m */,
 				EBFEFBC7223036490072EDF1 /* Assets.xcassets */,
 				EBFEFBC9223036490072EDF1 /* LaunchScreen.storyboard */,
 				EBFEFBCC223036490072EDF1 /* Info.plist */,
 				EBFEFBCD223036490072EDF1 /* main.m */,
 			);
 			path = "Task-ObjC";
+			sourceTree = "<group>";
+		};
+		EBFEFBDA22303A9E0072EDF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBFEFBDC22303AD30072EDF1 /* LSITask.h */,
+				EBFEFBDD22303AD30072EDF1 /* LSITask.m */,
+				EBFEFBDF22303C240072EDF1 /* LSITaskController.h */,
+				EBFEFBE022303C240072EDF1 /* LSITaskController.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBFEFBDB22303AAA0072EDF1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBFEFBD7223038AF0072EDF1 /* LSIDetailViewController.h */,
+				EBFEFBD8223038AF0072EDF1 /* LSIDetailViewController.m */,
+				EBFEFBD42230369E0072EDF1 /* LSITableViewController.h */,
+				EBFEFBD52230369E0072EDF1 /* LSITableViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBFEFBC3223036460072EDF1 /* ViewController.m in Sources */,
+				EBFEFBE122303C240072EDF1 /* LSITaskController.m in Sources */,
 				EBFEFBCE223036490072EDF1 /* main.m in Sources */,
 				EBFEFBD9223038AF0072EDF1 /* LSIDetailViewController.m in Sources */,
+				EBFEFBDE22303AD30072EDF1 /* LSITask.m in Sources */,
 				EBFEFBD62230369E0072EDF1 /* LSITableViewController.m in Sources */,
 				EBFEFBC0223036460072EDF1 /* AppDelegate.m in Sources */,
 			);
